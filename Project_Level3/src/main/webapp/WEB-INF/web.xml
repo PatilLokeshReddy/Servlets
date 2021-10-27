@@ -1,0 +1,22 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<servlet>
+		<servlet-name>pro</servlet-name>
+		<servlet-class>Project_L3</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pro</servlet-name>
+		<url-pattern>/show</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>serc</servlet-name>
+		<servlet-class>ServletL3</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>serc</servlet-name>
+		<url-pattern>/sq</url-pattern>
+	</servlet-mapping>
+</web-app>
